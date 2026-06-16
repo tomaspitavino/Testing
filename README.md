@@ -8,7 +8,7 @@ This repository is a starting point for a Node.js application. Update this READM
 
 ## Requirements
 
-- Node.js 18 or later
+- Node.js 18 or later 
 - npm 9 or later
 
 ## Installation
