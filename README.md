@@ -4,7 +4,7 @@ A simple Node.js project for building, testing, and running JavaScript applicati
 
 ## Overview
 
-This repository is a starting point for a Node.js application. Update this README with your app name, features, and commands as the project grows.
+This repository is a starting point for a Node.js application. Update this README with your app name, features, and commands as the project grows. this will be the next generation of software. i am available to do better things
 
 ## Requirements
 
