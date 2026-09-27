@@ -6,7 +6,8 @@
         "target": "esnext",
         "noEmit": true,
     },
+    
     "include": [
-        "src/**/*"
+    "src/**/*"
     ],
 }
