@@ -5,16 +5,16 @@ async function getContact(contactId){
    });
 
 return {
-    id: +response.id,
-    name: response.name,
-    birthdate: new Date(response.birthdate),
- };
+   id: +response.id,
+   name: response.name,
+   birthdate: new Date(response.birthdate),
+};
 }
 
 getContact(1).then(contact => {
-    contact.id = "1234"
-    contact.birthdate = "12/12/1990";
+   contact.id = 1234
+   contact.birthdate = new Date("12/12/1990");
 });
 
 getContact(2).then(contact => {
-    console.log("contact: ", JSON.stringify(contact));
+   console.log("contact: ", JSON.stringify(contact));
