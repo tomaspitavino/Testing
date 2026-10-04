@@ -62,7 +62,7 @@ NODE_ENV=development
 
 ## Development
 
-1. Clone the repository.
+1. Clone the repository. --> https://github.com/tomaspitavino/Testing.git
 2. Install dependencies with `npm install`.
 3. Run the app with `npm run dev`.
 4. Add tests and update scripts as needed.
