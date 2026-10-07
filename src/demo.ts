@@ -11,6 +11,7 @@ interface Contact extends Address {
     id: number;
     name: ContactName;
     birthDate: Date;
+    status: ContactStatus;
 }
 
 interface Address {
@@ -19,12 +20,21 @@ interface Address {
     province: string;
     region: string;
     postalCode: string;
+
 }
+
+enum ContactStatus {
+    Active = "active",
+    Inactive = "inactive",
+    New = "new"
+}
+
 
 let prumaryContact: Contact = {
     birthDate: new Date("1987-05-24"),
     id: 12345,
     name: "Lionel Messi",
+    status: ContactStatus.Active
 };
 
 type ContactName = string 
